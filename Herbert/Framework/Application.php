@@ -1274,4 +1274,13 @@ class Application extends \Illuminate\Container\Container implements \Illuminate
         return $this->basePath() . '/vendor/services.json';
     }
 
+    public function getCachedPackagesPath()
+    {
+        //
+    }
+
+    public function runningInConsole()
+    {
+        //
+    }
 }
